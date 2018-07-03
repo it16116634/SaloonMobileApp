@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:lineSpacingExtra="24sp"
+        android:text="Terms and Conditions"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your mobile app needs a Terms and Conditions if you want to stop abusive users, terminate access or accounts at your sole discretion, and enforce rules and guidelines that you set. It’s the set of rules that users must follow to access, use and continue to use your app.
+
+Think of your Terms and Conditions agreement as the legal agreement where you maintain your rights to exclude users from your app in the event that they abuse your app, and where you maintain your legal rights against potential abusers of your app, and so on.
+
+A Terms and Conditions is not required by law. Most mobile apps would want and need this kind of agreement, but especially so those:
+
+That are part of a SaaS app
+That have user-generated content
+That are part of an ecommerce store
+Here’s why.
+
+Business benefits: when you have a Terms and Conditions agreement in place on your app and require users to agree to be bound by the agreement before allowing them to use your app, you will get a number of benefits:
+
+You will be protected against abuses by users, such as copyright infringement, spamming of other users, and general misuse of your app,
+You can require arbitration over litigation, and even select the governing law to be used in the event of a legal issue,
+You maintain the right to terminate user’s accounts at any time you may need or want to, and
+Your liability to users will be limited.
+All of these benefits and more are obtained by including specific clauses and requiring your users to agree to be bound by them so that you can later enforce them if need be.
+
+User benefits: your users will benefit by having an explanation of their expectations and rights.
+
+A Terms and Conditions agreement can help a user understand what is expected of him/her by explaining things like how payments must be made, what a user must refrain from doing, and how to reach customer support."
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="107dp" />
+</LinearLayout>

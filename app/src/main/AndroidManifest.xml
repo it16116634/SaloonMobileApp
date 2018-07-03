@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lnovo.sampleapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainmenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HairActivity" />
+        <activity android:name=".BodyActivity" />
+        <activity android:name=".FaceActivity" />
+        <activity android:name=".NailsActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TatoActivity" />
+        <activity android:name=".invaddtocart" />
+        <activity android:name=".OfferActivity" />
+        <activity android:name=".HairSalonActivity" />
+        <activity android:name=".SalonServiceActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".SalonActivity" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".BookingFormActivity" />
+        <activity android:name=".view_inventory" />
+        <activity android:name=".selection" />
+        <activity android:name=".CusReg" />
+        <activity android:name=".order_new" />
+        <activity android:name=".packdetails" />
+        <activity android:name=".payment" />
+        <activity android:name=".Product" />
+        <activity android:name=".SalCardViewBtns" />
+        <activity android:name=".saloons" />
+        <activity android:name=".salReg" />
+        <activity android:name=".services" />
+        <activity android:name=".addtocart" />
+        <activity android:name=".temp1" />
+        <activity android:name=".SalonProfile" />
+        <activity android:name=".SalPkg" />
+        <activity android:name=".SalonPassChange" />
+        <activity android:name=".PasswordChange" />
+        <activity android:name=".CustomerProfile" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".NotificationDetailActivity" />
+        <activity android:name=".DiscussionActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".cart" />
+        <activity android:name=".odr"></activity>
+    </application>
+
+</manifest>

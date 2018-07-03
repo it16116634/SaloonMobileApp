@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PolicyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:lineSpacingExtra="30sp"
+            android:text="Privancy Policy"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="There are many different ways that you can use our services – to search for and share information, to communicate with other people or to create new content. When you share information with us, for example by creating a Google Account, we can make those services even better – to show you more relevant search results and ads, to help you connect with people or to make sharing with others quicker and easier. As you use our services, we want you to be clear how we’re using information and the ways in which you can protect your privacy.
+
+Our Privacy Policy explains:
+
+What information we collect and why we collect it.
+How we use that information.
+The choices we offer, including how to access and update information.
+We’ve tried to keep it as simple as possible, but if you’re not familiar with terms, such as cookies, IP addresses, pixel tags and browsers, then read about these key terms first. Your privacy matters to Google, so whether you are new to Google or a long-time user, please do take the time to get to know our practices – and if you have any questions, contact us." />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

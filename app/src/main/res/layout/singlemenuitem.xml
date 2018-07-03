@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp">
+
+            <ImageView
+                android:id="@+id/serviceImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/body" />
+
+            <TextView
+
+                android:id="@+id/serviceName"
+                android:layout_width="240dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/serviceImage"
+                android:text="BodyMassage"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:layout_toRightOf="@+id/serviceImage" />
+
+            <TextView
+                android:id="@+id/serviceDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/serviceName"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/serviceImage"
+                android:text="body massage fdngmd" />
+
+            <TextView
+                android:id="@+id/serviceprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/serviceName"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/serviceDesc"
+                android:text="LKR 1500"
+                android:textColor="#4CAF50"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
